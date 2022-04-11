@@ -1,0 +1,76 @@
+/*
+##################################################
+Author: Arthur Zuliani
+Date: Apr 11, 2022
+Purpose: Override bootstrap styles
+##################################################
+*/
+p{
+    margin: 0;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+span{
+    display: block;
+}
+
+.container-fluid{
+    margin-top: 20px;
+}
+
+.col-sm-10, .col-sm-8{
+    background-color: lightgray;
+    padding: 10px;
+    border: solid 1px grey;
+}
+
+.col-sm-10{
+    border: solid 1px grey;
+    border-radius: 10px;
+}
+
+.incorrectKey {
+    color: red;
+}
+
+.correctKey {
+    color: green;
+    font-size: 26px;
+}
+
+.layoutAid:nth-child(1){
+    background: repeating-linear-gradient(
+    -55deg,
+    rgb(224, 219, 219),
+    rgb(224, 219, 219),
+    lightgray 10px,
+    #333 20px
+  );
+}
+
+.layoutAid{
+    background: repeating-linear-gradient(
+    55deg,
+    rgb(224, 219, 219),
+    rgb(224, 219, 219),
+    lightgray 10px,
+    #333 20px
+  );
+}
+
+#author{
+    text-align: right;
+    padding-right: 10%;
+    color: darkgreen;
+}
+
+@media only screen and (min-width: 1000px) {
+    .container-fluid {
+        width: 1000px;
+        margin: 20px auto;
+    }
+}
